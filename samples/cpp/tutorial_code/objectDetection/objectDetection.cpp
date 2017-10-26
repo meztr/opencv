@@ -28,6 +28,7 @@ int main( int argc, const char** argv )
 
     cout << "\nThis program demonstrates using the cv::CascadeClassifier class to detect objects (Face + eyes) in a video stream.\n"
             "You can use Haar or LBP features.\n\n";
+    
     parser.printMessage();
 
     face_cascade_name = parser.get<string>("face_cascade");
